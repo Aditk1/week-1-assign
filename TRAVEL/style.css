@@ -1,0 +1,31 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:var(--backgrnd);
+}
+:root{
+    --grey600:rgb(75 85 99);
+    --grey900: rgb(17 24 39);  
+    --backgrnd: white; 
+}
+.dark-theme{
+    --grey600:white;
+    --grey900: white;
+    --backgrnd: black;
+
+}
+.text600{
+    color:var(--grey600);
+}
+.text900{
+    color: var(--grey900);
+}
+.black{
+background-color:var(--backgrnd);
+}
+
+#icon{
+    width: 25px;
+    cursor: pointer;
+}
